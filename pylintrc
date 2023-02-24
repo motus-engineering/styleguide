@@ -240,7 +240,8 @@ contextmanager-decorators=contextlib.contextmanager,contextlib2.contextmanager
 ignore-mixin-members=yes
 
 # List of module names for which member attributes should not be checked
-# (useful for modules/projects where namespaces are manipulated during runtime
+# (useful for modules/projects where name
+are manipulated during runtime
 # and thus existing member attributes cannot be deduced by static analysis. It
 # supports qualified module names, as well as Unix pattern matching.
 ignored-modules=
@@ -280,7 +281,7 @@ max-module-lines=99999
 # spaces.  Google's externaly-published style guide says 4, consistent with
 # PEP 8.  Here, we use 2 spaces, for conformity with many open-sourced Google
 # projects (like TensorFlow).
-indent-string='  '
+indent-string='    '
 
 # Number of spaces of indent required inside a hanging  or continued line.
 indent-after-paren=4
